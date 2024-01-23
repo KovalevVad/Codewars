@@ -1,7 +1,7 @@
 const initialArray = [1, 20, 13, 234, 59, 9, 40, 78]
 
-function average(initialArrays) {
-  return initialArrays.reduce((acc, b) => (acc + b)) / initialArrays.length
+function average(Arrays) {
+  return Arrays.reduce((acc, b) => (acc + b)) / Arrays.length
 }
 
 

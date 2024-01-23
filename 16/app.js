@@ -11,8 +11,8 @@ function unique(array) {
   array.map(function(item){
     let nam = item.name
     let k = 0
-    for(let i = 0; i < initialArray.length; i++) {
-      if (initialArray[i].name === nam){
+    for(let i = 0; i < array.length; i++) {
+      if (array[i].name === nam){
         k += 1
       }
     }

@@ -1,10 +1,10 @@
 const initialArray = [1, 2, 3, 4, 5, 6, 7, 8]
 
-function evenNumbersOnly(initialArray) {
+function evenNumbersOnly(Array) {
   let resultArray = []
-  for(let i = 0; i < initialArray.length; i++) {
-    if (Number(initialArray[i]) % 2 === 0) {
-      resultArray.push(Number(initialArray[i]))
+  for(let i = 0; i < Array.length; i++) {
+    if (Number(Array[i]) % 2 === 0) {
+      resultArray.push(Number(Array[i]))
     }
   }
   return resultArray

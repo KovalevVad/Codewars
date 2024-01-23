@@ -24,6 +24,7 @@ function unique(array1,array2) {
 }
 
 const result = unique(initialArray1, initialArray2)
+
 for (let i = 0; i < result.length;i++) {
   let count = 0
   for (let j = 0; j < result.length;j++){
@@ -33,9 +34,9 @@ for (let i = 0; i < result.length;i++) {
     }
   }
   if (count > 1) {
-    delete result[index]
+    result.splice(index, 1)
     count = 0
   }
 }
-let res = result.filter(( element ) => element !== undefined)
-console.log(res) // [{ "name": "Viktor", "age": 24 }, { "name": "Abiba", "age": 35 }]
+
+console.log(result) // [{ "name": "Viktor", "age": 24 }, { "name": "Abiba", "age": 35 }]
