@@ -1,9 +1,9 @@
 const initialArray = ['Say', 'привет', 'to', 'АБЦ Wold']
 
-function latinAlphabetOnly(array){
+function latinAlphabetOnly(array) {
   let a = []
-  for(let i = 0; i < array.length; i++){
-    if (array[i].match(/^[a-z]*$/i)){
+  for(let i = 0; i < array.length; i++) {
+    if (array[i].match(/^[a-z]*$/i)) {
       a.push(array[i])
     }
   }

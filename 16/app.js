@@ -6,12 +6,12 @@ const initialArray = [
 	{ "name": "Abiba", "age": 35 },
 ]
 
-function unique(array){
+function unique(array) {
   let a = []
   array.map(function(item){
     let nam = item.name
     let k = 0
-    for(let i = 0; i < initialArray.length; i++){
+    for(let i = 0; i < initialArray.length; i++) {
       if (initialArray[i].name === nam){
         k += 1
       }

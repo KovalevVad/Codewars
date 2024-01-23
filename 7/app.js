@@ -4,7 +4,7 @@ const initialArray = [
 	{ "name": "Abiba", "age": 15 },
 ]
 
-function sortByAge(initialArray){
+function sortByAge(initialArray) {
   initialArray.sort((a,b) => a.age - b.age)
   return initialArray
 }

@@ -3,7 +3,7 @@ const Array2 = [1, 3, 4, 5, 7, 8, 9, 10, 20, 30, 40]
 
 
 
-function compare(ArrayA, ArrayB){
+function compare(ArrayA, ArrayB) {
   return ArrayA.filter((item) => ArrayB.indexOf(item) === -1)
 }
 

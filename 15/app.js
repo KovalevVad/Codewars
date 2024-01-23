@@ -30,11 +30,11 @@ function contains(){
 }
 const result = contains(initialArray)
 */
-const result = initialArray.reduce(function(acc,el){
-  if (el.includes('js') === true){
+const result = initialArray.reduce(function(acc,el) {
+  if (el.includes('js') === true) {
     acc.push(el)
     return acc
-  }else{
+  } else {
     return acc
   }
 },[])

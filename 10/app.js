@@ -1,10 +1,10 @@
 const initialArray = [1, 2, 3, 2, 6, 5, 4, 4, 9, 1]
 
-function uniqueOnly(array){
+function uniqueOnly(array) {
   let a = []
-  for(let i = 0; i < initialArray.length; i++){
+  for(let i = 0; i < initialArray.length; i++) {
     k = 0
-    for (let j = 0; j < initialArray.length; j++){
+    for (let j = 0; j < initialArray.length; j++) {
       if (array[i] === array[j]){
         k += 1
       }
