@@ -1,7 +1,7 @@
 const initialArray = [
 	{ "name": "Viktor", "age": 24 },
 	{ "name": "Aboba", "age": 16 },
-  {"name": "Vadim", "age": 34 }
+	{"name": "Vadim", "age": 34 }
 ]
 
 let result = initialArray.filter(item => item.age > 18)
