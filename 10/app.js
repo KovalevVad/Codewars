@@ -1,18 +1,18 @@
 const initialArray = [1, 2, 3, 2, 6, 5, 4, 4, 9, 1]
 
-function uniqueOnly(array) {
+function uniqueOnly(mas) {
   let a = []
-  for(let i = 0; i < array.length; i++) {
+  for(let i = 0; i < mas.length; i++) {
     k = 0
-    for (let j = 0; j < array.length; j++){
-      if (array[i] === array[j]){
+    for (let j = 0; j < mas.length; j++) {
+      if (mas[i] === mas[j]) {
         k += 1
       }
     }
-    if (k > 1){
+    if (k > 1) {
       k = 0
-    } else{
-      a.push(array[i])
+    } else {
+      a.push(mas[i])
     }
   }
   return a

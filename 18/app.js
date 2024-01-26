@@ -11,7 +11,7 @@ const initialArray2 = [
 	{ "name": "Abiba", "age": 35 },
 ]
 
-function unique(array1,array2) {
+function unique(array1, array2) {
   let a = []
   for (let i = 0; i < array1.length;i++) {
     for(let j = 0; j < array2.length; j++) {
@@ -25,9 +25,9 @@ function unique(array1,array2) {
 
 const result = unique(initialArray1, initialArray2)
 
-for (let i = 0; i < result.length;i++) {
+for (let i = 0; i < result.length; i++) {
   let count = 0
-  for (let j = 0; j < result.length;j++){
+  for (let j = 0; j < result.length;j++) {
     if(JSON.stringify(result[i]) === JSON.stringify(result[j])) {
       count += 1
       index = result.indexOf(result[j])

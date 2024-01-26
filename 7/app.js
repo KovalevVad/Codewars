@@ -4,9 +4,9 @@ const initialArray = [
 	{ "name": "Abiba", "age": 15 },
 ]
 
-function sortByAge(Array) {
-  Array.sort((a,b) => a.age - b.age)
-  return Array
+function sortByAge(mas) {
+  mas.sort((a, b) => a.age - b.age)
+  return mas
 }
 const result = sortByAge(initialArray) // Реализовать эту функцию
 

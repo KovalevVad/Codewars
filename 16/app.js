@@ -6,20 +6,20 @@ const initialArray = [
 	{ "name": "Abiba", "age": 35 },
 ]
 
-function unique(array) {
+function unique(mas) {
   let a = []
-  array.map(function(item){
+  mas.map(function(item){
     let nam = item.name
     let k = 0
-    for(let i = 0; i < array.length; i++) {
-      if (array[i].name === nam){
+    for(let i = 0; i < mas.length; i++) {
+      if (mas[i].name === nam) {
         k += 1
       }
     }
-    if (k === 1){
+    if (k === 1) {
       a.push(item)
       k = 0
-    } else{
+    } else {
       k = 0
     }
   })

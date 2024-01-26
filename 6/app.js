@@ -1,10 +1,10 @@
 const initialArray = ['Say', 'hello', 'to', 'world']
 
-function firstLetters(Array) {
- const letters = Array.reduce(function (acc, el) {
+function firstLetters(mas) {
+ const letters = mas.reduce(function (acc, el) {
   acc.push(el[0])
   return acc
-  },[])
+  }, [])
   return letters
 }
 
